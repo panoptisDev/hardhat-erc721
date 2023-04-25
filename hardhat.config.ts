@@ -19,7 +19,11 @@ const config: HardhatUserConfig = {
     polygon:{
       url:RPC_URLS.polygon,
       accounts: [PRIVATE_KEY]
-    }
+    },
+    pulse:{
+      url:RPC_URLS.pulse,
+      accounts: [PRIVATE_KEY]
+    },
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEYS
